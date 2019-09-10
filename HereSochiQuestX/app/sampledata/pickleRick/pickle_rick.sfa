@@ -1,0 +1,81 @@
+{
+  materials: [
+    {
+      name: 'M_04___Default',
+      parameters: [
+        {
+          baseColor: 'M_04___Default',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'eye',
+      parameters: [
+        {
+          baseColor: 'eye',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/pickleRick/pickle_rick.obj',
+    name: 'pickle_rick',
+    recenter: 'root',
+    scale: 0.003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/pickleRick/M_04___Default.jpg',
+      name: 'M_04___Default',
+      pipeline_name: 'M_04___Default.jpg',
+    },
+    {
+      file: 'sampledata/pickleRick/eye.jpg',
+      name: 'eye',
+      pipeline_name: 'eye.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

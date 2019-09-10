@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HereSochiQuestX</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="picture">сделать фото</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="introduction">
+        \t\t Рик и Морти часто путешествуют по новым измерениям.
+    </string>
+    <string name="problem">
+        \t\t И в одном из приключений Рик не заметил, как временной портал остался открытым и стал затягивать различных героев.
+        Теперь они живут в других измерениях и говорят на непонятных языках. Помогите Рику и Морти найти их и вернуть обратно.
+    </string>
+    <string name="task">
+        \t\t Для этого команда должна пройти полную миссию спасения. Решите первое задание, там будет зашифровано место, где активируется портал и появится первый пропавший герой. Дальше он подскажет, где найти следующего.
+    </string>
+    <string name="result">
+         \t\t Когда соберёте всех героев, получите приз! Хоршего приключения!
+    </string>
+    <string name="done">
+         Задание решено! А теперь сделайте командное селфи и запостите в инстаграм, отметив @community_here ;3
+    </string>
+    <string name="stringSelfieButton">
+         сделать селфи
+    </string>
+    <string name="doneButton">
+         фото готово
+    </string>
+    <string name="backToMap">
+         продолжить поиски
+    </string>
+    <string name="newTask">
+        Новое задание:\n
+    </string>
+</resources>

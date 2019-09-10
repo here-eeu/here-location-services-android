@@ -1,0 +1,49 @@
+{
+  materials: [
+    {
+      name: 'flat_800x800_070_f',
+      parameters: [
+        {
+          baseColor: 'showmewhatyougot',
+        },
+        {
+          baseColorTint: [
+            0.95294100000000004,
+            0.87451000000000001,
+            0.68627499999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/head/showme.obj',
+    name: 'showme',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/head/showmewhatyougot.jpg',
+      name: 'showmewhatyougot',
+      pipeline_name: 'showmewhatyougot.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

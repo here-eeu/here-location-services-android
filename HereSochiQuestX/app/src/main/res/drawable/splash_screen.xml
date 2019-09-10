@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/colorSplash"/>
+
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/here_logo"
+        android:width="66dp"
+        android:height="58dp">
+    </item>
+
+</layer-list>
